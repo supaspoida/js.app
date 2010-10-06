@@ -1,0 +1,6 @@
+%h2 Things done to this egg
+
+:each event in events
+  %h3= event.loudName()
+  .message= event.attr('message')
+
