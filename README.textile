@@ -1,0 +1,18 @@
+This is a sample Rails 3 app tooled to use js-model, Sammy.js & haml-js as a clientside mvc framework.
+
+pre. bundle install
+rails server
+
+The javascript app is served in a single file.
+
+pre. localhost:3000/javascripts/app.js
+
+Models & controllers are stored in app/javascripts just like a rails app.
+
+pre. models/events.js
+controllers/events_controller.js
+
+Views are stored in public/javascripts/app/views/events/index.haml. Still evaluating js templating options.
+
+There is nothing in the rails app, filling those views with data is left up to the viewer.
+
